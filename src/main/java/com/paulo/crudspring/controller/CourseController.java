@@ -19,7 +19,6 @@ public class CourseController {
 
     private final CourseRepository courseRepository;
 
-
     //@RequestMapping(method = RequestMethod.GET) = Mesma coisa que o GetMapping
     @GetMapping
     public @ResponseBody List<Course> list(){
